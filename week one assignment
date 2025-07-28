@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Example Tech Solutions | Web Design & SEO Experts</title>
+  <meta name="description" content="Example Tech Solutions provides expert web design, development, and SEO services to help small businesses grow online.">
+  <meta name="keywords" content="web design, web development, SEO, accessibility">
+  <link rel="canonical" href="https://www.exampletechsolutions.com/">
+</head>
+<body>
+
+  <!-- Skip link for keyboard and screen-reader users -->
+  <a href="#main-content" class="visually-hidden">Skip to main content</a>
+
+  <header>
+    <h1>Example Tech Solutions</h1>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#services">Our Services</a></li>
+        <li><a href="#resources">Resources</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About Example Tech Solutions</h2>
+      <p>We are a team of dedicated professionals committed to helping small businesses succeed online through modern web design, performance, and accessibility-first development.</p>
+    </section>
+
+    <section id="services" aria-labelledby="services-heading">
+      <h2 id="services-heading">Our Services</h2>
+      <article aria-labelledby="service-design">
+        <h3 id="service-design">Web Design</h3>
+        <p>Responsive, user-centered design that looks great on all devices.</p>
+      </article>
+      <article aria-labelledby="service-development">
+        <h3 id="service-development">Web Development</h3>
+        <p>Semantic, accessible, and efficient code built for performance.</p>
+      </article>
+      <article aria-labelledby="service-seo">
+        <h3 id="service-seo">SEO Optimization</h3>
+        <p>On-page SEO, metadata, and structured data to improve visibility in search results.</p>
+      </article>
+    </section>
+
+    <aside id="resources" aria-labelledby="resources-heading">
+      <h2 id="resources-heading">Resources for You</h2>
+      <ul>
+        <li><a href="#">Latest SEO Tips (Blog)</a></li>
+        <li><a href="#">WCAG Accessibility Guide</a></li>
+      </ul>
+    </aside>
+
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact Us</h2>
+      <form action="#" method="post" aria-label="Contact form">
+        <fieldset>
+          <legend>Send us a message</legend>
+          <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required aria-required="true">
+          </div>
+          <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required aria-required="true">
+          </div>
+          <div>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+          </div>
+          <button type="submit">Send Message</button>
+        </fieldset>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <nav aria-label="Footer navigation">
+      <ul>
+        <li><a href="/privacy">Privacy Policy</a></li>
+        <li><a href="/terms">Terms & Conditions</a></li>
+      </ul>
+    </nav>
+    <p>&copy; 2025 Example Tech Solutions</p>
+  </footer>
+
+</body>
+</html>
